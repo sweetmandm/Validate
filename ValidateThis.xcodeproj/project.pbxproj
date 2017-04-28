@@ -10,6 +10,9 @@
 		83BE7E951EB2CBD800656252 /* ValidateThis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83BE7E8B1EB2CBD800656252 /* ValidateThis.framework */; };
 		83BE7E9A1EB2CBD800656252 /* ValidateThisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BE7E991EB2CBD800656252 /* ValidateThisTests.swift */; };
 		83BE7E9C1EB2CBD800656252 /* ValidateThis.h in Headers */ = {isa = PBXBuildFile; fileRef = 83BE7E8E1EB2CBD800656252 /* ValidateThis.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83BE7EA61EB2CBEC00656252 /* ValidationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BE7EA51EB2CBEC00656252 /* ValidationResult.swift */; };
+		83BE7EA81EB2CC0C00656252 /* ValidationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BE7EA71EB2CC0C00656252 /* ValidationError.swift */; };
+		83BE7EAA1EB3963A00656252 /* ValidationAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BE7EA91EB3963A00656252 /* ValidationAppearance.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +32,9 @@
 		83BE7E941EB2CBD800656252 /* ValidateThisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ValidateThisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83BE7E991EB2CBD800656252 /* ValidateThisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateThisTests.swift; sourceTree = "<group>"; };
 		83BE7E9B1EB2CBD800656252 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83BE7EA51EB2CBEC00656252 /* ValidationResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationResult.swift; sourceTree = "<group>"; };
+		83BE7EA71EB2CC0C00656252 /* ValidationError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationError.swift; sourceTree = "<group>"; };
+		83BE7EA91EB3963A00656252 /* ValidationAppearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationAppearance.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +79,9 @@
 			children = (
 				83BE7E8E1EB2CBD800656252 /* ValidateThis.h */,
 				83BE7E8F1EB2CBD800656252 /* Info.plist */,
+				83BE7EA51EB2CBEC00656252 /* ValidationResult.swift */,
+				83BE7EA71EB2CC0C00656252 /* ValidationError.swift */,
+				83BE7EA91EB3963A00656252 /* ValidationAppearance.swift */,
 			);
 			path = ValidateThis;
 			sourceTree = "<group>";
@@ -148,6 +157,7 @@
 				TargetAttributes = {
 					83BE7E8A1EB2CBD800656252 = {
 						CreatedOnToolsVersion = 8.3.2;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					83BE7E931EB2CBD800656252 = {
@@ -196,6 +206,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83BE7EAA1EB3963A00656252 /* ValidationAppearance.swift in Sources */,
+				83BE7EA61EB2CBEC00656252 /* ValidationResult.swift in Sources */,
+				83BE7EA81EB2CC0C00656252 /* ValidationError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +335,7 @@
 		83BE7EA01EB2CBD800656252 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -333,6 +347,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tinfish.ValidateThis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -340,6 +355,7 @@
 		83BE7EA11EB2CBD800656252 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -358,6 +374,7 @@
 		83BE7EA31EB2CBD800656252 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = ValidateThisTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tinfish.ValidateThisTests;
@@ -369,6 +386,7 @@
 		83BE7EA41EB2CBD800656252 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = ValidateThisTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tinfish.ValidateThisTests;

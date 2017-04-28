@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:ValidateThis.xcodeproj">
+      location = "self:/Users/sweetman/projectfiles/smashingboxes/ValidateThis/Validate.xcodeproj">
    </FileRef>
 </Workspace>

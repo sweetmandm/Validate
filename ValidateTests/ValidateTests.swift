@@ -1,15 +1,15 @@
 //
-//  ValidateThisTests.swift
-//  ValidateThisTests
+//  ValidateTests.swift
+//  ValidateTests
 //
 //  Created by sweetman on 4/27/17.
 //  Copyright © 2017 tinfish. All rights reserved.
 //
 
 import XCTest
-@testable import ValidateThis
+@testable import Validate
 
-class ValidateThisTests: XCTestCase {
+class ValidateTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

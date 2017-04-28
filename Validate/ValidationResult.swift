@@ -1,6 +1,6 @@
 //
 //  ValidationResult.swift
-//  ValidateThis
+//  Validate
 //
 //  Created by sweetman on 4/27/17.
 //  Copyright © 2017 tinfish. All rights reserved.
@@ -8,7 +8,7 @@
 
 import Foundation
 
-// ValidateThis
+// Validate
 // minimal, unopinionated, composable validations
 
 public enum ValidationResult<Value> {

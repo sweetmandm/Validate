@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		83BE7E951EB2CBD800656252 /* ValidateThis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83BE7E8B1EB2CBD800656252 /* ValidateThis.framework */; };
-		83BE7E9A1EB2CBD800656252 /* ValidateThisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BE7E991EB2CBD800656252 /* ValidateThisTests.swift */; };
+		83BE7E951EB2CBD800656252 /* Validate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83BE7E8B1EB2CBD800656252 /* Validate.framework */; };
+		83BE7E9A1EB2CBD800656252 /* ValidateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BE7E991EB2CBD800656252 /* ValidateTests.swift */; };
 		83BE7E9C1EB2CBD800656252 /* ValidateThis.h in Headers */ = {isa = PBXBuildFile; fileRef = 83BE7E8E1EB2CBD800656252 /* ValidateThis.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		83BE7EA61EB2CBEC00656252 /* ValidationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BE7EA51EB2CBEC00656252 /* ValidationResult.swift */; };
 		83BE7EA81EB2CC0C00656252 /* ValidationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BE7EA71EB2CC0C00656252 /* ValidationError.swift */; };
@@ -26,11 +26,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		83BE7E8B1EB2CBD800656252 /* ValidateThis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ValidateThis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83BE7E8B1EB2CBD800656252 /* Validate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Validate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		83BE7E8E1EB2CBD800656252 /* ValidateThis.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ValidateThis.h; sourceTree = "<group>"; };
 		83BE7E8F1EB2CBD800656252 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		83BE7E941EB2CBD800656252 /* ValidateThisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ValidateThisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		83BE7E991EB2CBD800656252 /* ValidateThisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateThisTests.swift; sourceTree = "<group>"; };
+		83BE7E941EB2CBD800656252 /* ValidateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ValidateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83BE7E991EB2CBD800656252 /* ValidateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateTests.swift; sourceTree = "<group>"; };
 		83BE7E9B1EB2CBD800656252 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83BE7EA51EB2CBEC00656252 /* ValidationResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationResult.swift; sourceTree = "<group>"; };
 		83BE7EA71EB2CC0C00656252 /* ValidationError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationError.swift; sourceTree = "<group>"; };
@@ -49,7 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83BE7E951EB2CBD800656252 /* ValidateThis.framework in Frameworks */,
+				83BE7E951EB2CBD800656252 /* Validate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,8 +59,8 @@
 		83BE7E811EB2CBD800656252 = {
 			isa = PBXGroup;
 			children = (
-				83BE7E8D1EB2CBD800656252 /* ValidateThis */,
-				83BE7E981EB2CBD800656252 /* ValidateThisTests */,
+				83BE7E8D1EB2CBD800656252 /* Validate */,
+				83BE7E981EB2CBD800656252 /* ValidateTests */,
 				83BE7E8C1EB2CBD800656252 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,13 +68,13 @@
 		83BE7E8C1EB2CBD800656252 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				83BE7E8B1EB2CBD800656252 /* ValidateThis.framework */,
-				83BE7E941EB2CBD800656252 /* ValidateThisTests.xctest */,
+				83BE7E8B1EB2CBD800656252 /* Validate.framework */,
+				83BE7E941EB2CBD800656252 /* ValidateTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		83BE7E8D1EB2CBD800656252 /* ValidateThis */ = {
+		83BE7E8D1EB2CBD800656252 /* Validate */ = {
 			isa = PBXGroup;
 			children = (
 				83BE7E8E1EB2CBD800656252 /* ValidateThis.h */,
@@ -83,16 +83,16 @@
 				83BE7EA71EB2CC0C00656252 /* ValidationError.swift */,
 				83BE7EA91EB3963A00656252 /* ValidationAppearance.swift */,
 			);
-			path = ValidateThis;
+			path = Validate;
 			sourceTree = "<group>";
 		};
-		83BE7E981EB2CBD800656252 /* ValidateThisTests */ = {
+		83BE7E981EB2CBD800656252 /* ValidateTests */ = {
 			isa = PBXGroup;
 			children = (
-				83BE7E991EB2CBD800656252 /* ValidateThisTests.swift */,
+				83BE7E991EB2CBD800656252 /* ValidateTests.swift */,
 				83BE7E9B1EB2CBD800656252 /* Info.plist */,
 			);
-			path = ValidateThisTests;
+			path = ValidateTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,9 +109,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		83BE7E8A1EB2CBD800656252 /* ValidateThis */ = {
+		83BE7E8A1EB2CBD800656252 /* Validate */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 83BE7E9F1EB2CBD800656252 /* Build configuration list for PBXNativeTarget "ValidateThis" */;
+			buildConfigurationList = 83BE7E9F1EB2CBD800656252 /* Build configuration list for PBXNativeTarget "Validate" */;
 			buildPhases = (
 				83BE7E861EB2CBD800656252 /* Sources */,
 				83BE7E871EB2CBD800656252 /* Frameworks */,
@@ -122,14 +122,14 @@
 			);
 			dependencies = (
 			);
-			name = ValidateThis;
+			name = Validate;
 			productName = ValidateThis;
-			productReference = 83BE7E8B1EB2CBD800656252 /* ValidateThis.framework */;
+			productReference = 83BE7E8B1EB2CBD800656252 /* Validate.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		83BE7E931EB2CBD800656252 /* ValidateThisTests */ = {
+		83BE7E931EB2CBD800656252 /* ValidateTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 83BE7EA21EB2CBD800656252 /* Build configuration list for PBXNativeTarget "ValidateThisTests" */;
+			buildConfigurationList = 83BE7EA21EB2CBD800656252 /* Build configuration list for PBXNativeTarget "ValidateTests" */;
 			buildPhases = (
 				83BE7E901EB2CBD800656252 /* Sources */,
 				83BE7E911EB2CBD800656252 /* Frameworks */,
@@ -140,9 +140,9 @@
 			dependencies = (
 				83BE7E971EB2CBD800656252 /* PBXTargetDependency */,
 			);
-			name = ValidateThisTests;
+			name = ValidateTests;
 			productName = ValidateThisTests;
-			productReference = 83BE7E941EB2CBD800656252 /* ValidateThisTests.xctest */;
+			productReference = 83BE7E941EB2CBD800656252 /* ValidateTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -166,7 +166,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83BE7E851EB2CBD800656252 /* Build configuration list for PBXProject "ValidateThis" */;
+			buildConfigurationList = 83BE7E851EB2CBD800656252 /* Build configuration list for PBXProject "Validate" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -178,8 +178,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				83BE7E8A1EB2CBD800656252 /* ValidateThis */,
-				83BE7E931EB2CBD800656252 /* ValidateThisTests */,
+				83BE7E8A1EB2CBD800656252 /* Validate */,
+				83BE7E931EB2CBD800656252 /* ValidateTests */,
 			);
 		};
 /* End PBXProject section */
@@ -216,7 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83BE7E9A1EB2CBD800656252 /* ValidateThisTests.swift in Sources */,
+				83BE7E9A1EB2CBD800656252 /* ValidateTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,7 +225,7 @@
 /* Begin PBXTargetDependency section */
 		83BE7E971EB2CBD800656252 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 83BE7E8A1EB2CBD800656252 /* ValidateThis */;
+			target = 83BE7E8A1EB2CBD800656252 /* Validate */;
 			targetProxy = 83BE7E961EB2CBD800656252 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -341,10 +341,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = ValidateThis/Info.plist;
+				INFOPLIST_FILE = Validate/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tinfish.ValidateThis;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tinfish.Validate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -361,10 +361,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = ValidateThis/Info.plist;
+				INFOPLIST_FILE = Validate/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tinfish.ValidateThis;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tinfish.Validate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -375,7 +375,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = ValidateThisTests/Info.plist;
+				INFOPLIST_FILE = ValidateTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tinfish.ValidateThisTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -387,7 +387,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = ValidateThisTests/Info.plist;
+				INFOPLIST_FILE = ValidateTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tinfish.ValidateThisTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -398,7 +398,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		83BE7E851EB2CBD800656252 /* Build configuration list for PBXProject "ValidateThis" */ = {
+		83BE7E851EB2CBD800656252 /* Build configuration list for PBXProject "Validate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83BE7E9D1EB2CBD800656252 /* Debug */,
@@ -407,7 +407,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83BE7E9F1EB2CBD800656252 /* Build configuration list for PBXNativeTarget "ValidateThis" */ = {
+		83BE7E9F1EB2CBD800656252 /* Build configuration list for PBXNativeTarget "Validate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83BE7EA01EB2CBD800656252 /* Debug */,
@@ -415,7 +415,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		83BE7EA21EB2CBD800656252 /* Build configuration list for PBXNativeTarget "ValidateThisTests" */ = {
+		83BE7EA21EB2CBD800656252 /* Build configuration list for PBXNativeTarget "ValidateTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83BE7EA31EB2CBD800656252 /* Debug */,

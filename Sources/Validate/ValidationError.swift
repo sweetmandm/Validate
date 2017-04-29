@@ -8,6 +8,6 @@
 
 import Foundation
 
-public protocol ValidationError {
+public protocol ValidationError: Error {
     var reason: String { get }
 }

@@ -13,6 +13,7 @@ import Foundation
  For UI-based input fields, optionally style the field according to ValidationApparance conformance.
  */
 open class OnField: ValidationError {
+    
     open var reason: String
     open let field: Any
     

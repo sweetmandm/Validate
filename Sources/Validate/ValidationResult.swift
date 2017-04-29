@@ -12,12 +12,12 @@ import Foundation
  
  Validate
  --------
- minimal, unopinionated, composable validations
- BYOBusiness Logic
+ Minimal + composable validations. BYOBusiness Logic
  
  */
 
 public enum ValidationResult<Value, ErrorType: ValidationError> {
+    
     case valid(Value)
     case invalid(ErrorType)
     

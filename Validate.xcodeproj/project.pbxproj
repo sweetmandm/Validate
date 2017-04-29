@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		833D9EF81EB533AF0065E69C /* OnAnonymousError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833D9EED1EB533AF0065E69C /* OnAnonymousError.swift */; };
+		833D9EF91EB533AF0065E69C /* OnField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833D9EEE1EB533AF0065E69C /* OnField.swift */; };
+		833D9EFA1EB533AF0065E69C /* OnFieldMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833D9EEF1EB533AF0065E69C /* OnFieldMultiple.swift */; };
+		833D9EFB1EB533AF0065E69C /* OnMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833D9EF01EB533AF0065E69C /* OnMultiple.swift */; };
+		833D9EFC1EB533AF0065E69C /* OnReason.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833D9EF11EB533AF0065E69C /* OnReason.swift */; };
+		833D9EFF1EB533AF0065E69C /* ValidationAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833D9EF51EB533AF0065E69C /* ValidationAppearance.swift */; };
+		833D9F001EB533AF0065E69C /* ValidationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833D9EF61EB533AF0065E69C /* ValidationError.swift */; };
+		833D9F011EB533AF0065E69C /* ValidationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833D9EF71EB533AF0065E69C /* ValidationResult.swift */; };
+		833D9F0D1EB554270065E69C /* ValidateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833D9F0B1EB554270065E69C /* ValidateTests.swift */; };
+		836A30531EB55B13002AD37B /* Validate.h in Headers */ = {isa = PBXBuildFile; fileRef = 833D9EF41EB533AF0065E69C /* Validate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		836A30591EB55FE6002AD37B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 836A30581EB55FE6002AD37B /* Info.plist */; };
 		83BE7E951EB2CBD800656252 /* Validate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83BE7E8B1EB2CBD800656252 /* Validate.framework */; };
-		83BE7E9A1EB2CBD800656252 /* ValidateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BE7E991EB2CBD800656252 /* ValidateTests.swift */; };
-		83BE7E9C1EB2CBD800656252 /* Validate.h in Headers */ = {isa = PBXBuildFile; fileRef = 83BE7E8E1EB2CBD800656252 /* Validate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		83BE7EA61EB2CBEC00656252 /* ValidationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BE7EA51EB2CBEC00656252 /* ValidationResult.swift */; };
-		83BE7EA81EB2CC0C00656252 /* ValidationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BE7EA71EB2CC0C00656252 /* ValidationError.swift */; };
-		83BE7EAA1EB3963A00656252 /* ValidationAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BE7EA91EB3963A00656252 /* ValidationAppearance.swift */; };
-		83BE7EE61EB41C4E00656252 /* OnAnonymousError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BE7EE51EB41C4E00656252 /* OnAnonymousError.swift */; };
-		83BE7EE81EB41C6D00656252 /* OnReason.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BE7EE71EB41C6D00656252 /* OnReason.swift */; };
-		83BE7EEA1EB41C8900656252 /* OnField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BE7EE91EB41C8900656252 /* OnField.swift */; };
-		83BE7EEC1EB41C9E00656252 /* OnMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BE7EEB1EB41C9E00656252 /* OnMultiple.swift */; };
-		83BE7EF61EB4E91500656252 /* OnFieldMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BE7EF51EB4E91500656252 /* OnFieldMultiple.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,20 +32,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		833D9EED1EB533AF0065E69C /* OnAnonymousError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnAnonymousError.swift; sourceTree = "<group>"; };
+		833D9EEE1EB533AF0065E69C /* OnField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnField.swift; sourceTree = "<group>"; };
+		833D9EEF1EB533AF0065E69C /* OnFieldMultiple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnFieldMultiple.swift; sourceTree = "<group>"; };
+		833D9EF01EB533AF0065E69C /* OnMultiple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnMultiple.swift; sourceTree = "<group>"; };
+		833D9EF11EB533AF0065E69C /* OnReason.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnReason.swift; sourceTree = "<group>"; };
+		833D9EF21EB533AF0065E69C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		833D9EF41EB533AF0065E69C /* Validate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Validate.h; sourceTree = "<group>"; };
+		833D9EF51EB533AF0065E69C /* ValidationAppearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationAppearance.swift; sourceTree = "<group>"; };
+		833D9EF61EB533AF0065E69C /* ValidationError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationError.swift; sourceTree = "<group>"; };
+		833D9EF71EB533AF0065E69C /* ValidationResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationResult.swift; sourceTree = "<group>"; };
+		833D9F0B1EB554270065E69C /* ValidateTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidateTests.swift; sourceTree = "<group>"; };
+		836A30581EB55FE6002AD37B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83BE7E8B1EB2CBD800656252 /* Validate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Validate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		83BE7E8E1EB2CBD800656252 /* Validate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Validate.h; sourceTree = "<group>"; };
-		83BE7E8F1EB2CBD800656252 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83BE7E941EB2CBD800656252 /* ValidateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ValidateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		83BE7E991EB2CBD800656252 /* ValidateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateTests.swift; sourceTree = "<group>"; };
-		83BE7E9B1EB2CBD800656252 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		83BE7EA51EB2CBEC00656252 /* ValidationResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationResult.swift; sourceTree = "<group>"; };
-		83BE7EA71EB2CC0C00656252 /* ValidationError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationError.swift; sourceTree = "<group>"; };
-		83BE7EA91EB3963A00656252 /* ValidationAppearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationAppearance.swift; sourceTree = "<group>"; };
-		83BE7EE51EB41C4E00656252 /* OnAnonymousError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnAnonymousError.swift; sourceTree = "<group>"; };
-		83BE7EE71EB41C6D00656252 /* OnReason.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnReason.swift; sourceTree = "<group>"; };
-		83BE7EE91EB41C8900656252 /* OnField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnField.swift; sourceTree = "<group>"; };
-		83BE7EEB1EB41C9E00656252 /* OnMultiple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnMultiple.swift; sourceTree = "<group>"; };
-		83BE7EF51EB4E91500656252 /* OnFieldMultiple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnFieldMultiple.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,11 +67,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		833D9EEA1EB533AF0065E69C /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				833D9EEB1EB533AF0065E69C /* Validate */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		833D9EEB1EB533AF0065E69C /* Validate */ = {
+			isa = PBXGroup;
+			children = (
+				833D9EF21EB533AF0065E69C /* Info.plist */,
+				833D9EF41EB533AF0065E69C /* Validate.h */,
+				833D9EF51EB533AF0065E69C /* ValidationAppearance.swift */,
+				833D9EF61EB533AF0065E69C /* ValidationError.swift */,
+				833D9EF71EB533AF0065E69C /* ValidationResult.swift */,
+				833D9EEC1EB533AF0065E69C /* Errors */,
+			);
+			path = Validate;
+			sourceTree = "<group>";
+		};
+		833D9EEC1EB533AF0065E69C /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				833D9EED1EB533AF0065E69C /* OnAnonymousError.swift */,
+				833D9EEE1EB533AF0065E69C /* OnField.swift */,
+				833D9EEF1EB533AF0065E69C /* OnFieldMultiple.swift */,
+				833D9EF01EB533AF0065E69C /* OnMultiple.swift */,
+				833D9EF11EB533AF0065E69C /* OnReason.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		833D9F081EB554270065E69C /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				833D9F0A1EB554270065E69C /* ValidateTests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		833D9F0A1EB554270065E69C /* ValidateTests */ = {
+			isa = PBXGroup;
+			children = (
+				836A30581EB55FE6002AD37B /* Info.plist */,
+				833D9F0B1EB554270065E69C /* ValidateTests.swift */,
+			);
+			path = ValidateTests;
+			sourceTree = "<group>";
+		};
 		83BE7E811EB2CBD800656252 = {
 			isa = PBXGroup;
 			children = (
-				83BE7E8D1EB2CBD800656252 /* Validate */,
-				83BE7E981EB2CBD800656252 /* ValidateTests */,
+				833D9EEA1EB533AF0065E69C /* Sources */,
+				833D9F081EB554270065E69C /* Tests */,
 				83BE7E8C1EB2CBD800656252 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,40 +135,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		83BE7E8D1EB2CBD800656252 /* Validate */ = {
-			isa = PBXGroup;
-			children = (
-				83BE7E8E1EB2CBD800656252 /* Validate.h */,
-				83BE7E8F1EB2CBD800656252 /* Info.plist */,
-				83BE7EA51EB2CBEC00656252 /* ValidationResult.swift */,
-				83BE7EA71EB2CC0C00656252 /* ValidationError.swift */,
-				83BE7EA91EB3963A00656252 /* ValidationAppearance.swift */,
-				83BE7EE41EB41C4500656252 /* Errors */,
-			);
-			path = Validate;
-			sourceTree = "<group>";
-		};
-		83BE7E981EB2CBD800656252 /* ValidateTests */ = {
-			isa = PBXGroup;
-			children = (
-				83BE7E991EB2CBD800656252 /* ValidateTests.swift */,
-				83BE7E9B1EB2CBD800656252 /* Info.plist */,
-			);
-			path = ValidateTests;
-			sourceTree = "<group>";
-		};
-		83BE7EE41EB41C4500656252 /* Errors */ = {
-			isa = PBXGroup;
-			children = (
-				83BE7EE51EB41C4E00656252 /* OnAnonymousError.swift */,
-				83BE7EE71EB41C6D00656252 /* OnReason.swift */,
-				83BE7EE91EB41C8900656252 /* OnField.swift */,
-				83BE7EEB1EB41C9E00656252 /* OnMultiple.swift */,
-				83BE7EF51EB4E91500656252 /* OnFieldMultiple.swift */,
-			);
-			path = Errors;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -125,7 +142,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83BE7E9C1EB2CBD800656252 /* Validate.h in Headers */,
+				836A30531EB55B13002AD37B /* Validate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +229,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				836A30591EB55FE6002AD37B /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,14 +247,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83BE7EE81EB41C6D00656252 /* OnReason.swift in Sources */,
-				83BE7EEA1EB41C8900656252 /* OnField.swift in Sources */,
-				83BE7EF61EB4E91500656252 /* OnFieldMultiple.swift in Sources */,
-				83BE7EEC1EB41C9E00656252 /* OnMultiple.swift in Sources */,
-				83BE7EAA1EB3963A00656252 /* ValidationAppearance.swift in Sources */,
-				83BE7EE61EB41C4E00656252 /* OnAnonymousError.swift in Sources */,
-				83BE7EA61EB2CBEC00656252 /* ValidationResult.swift in Sources */,
-				83BE7EA81EB2CC0C00656252 /* ValidationError.swift in Sources */,
+				833D9EFF1EB533AF0065E69C /* ValidationAppearance.swift in Sources */,
+				833D9EFC1EB533AF0065E69C /* OnReason.swift in Sources */,
+				833D9F001EB533AF0065E69C /* ValidationError.swift in Sources */,
+				833D9F011EB533AF0065E69C /* ValidationResult.swift in Sources */,
+				833D9EFB1EB533AF0065E69C /* OnMultiple.swift in Sources */,
+				833D9EF81EB533AF0065E69C /* OnAnonymousError.swift in Sources */,
+				833D9EF91EB533AF0065E69C /* OnField.swift in Sources */,
+				833D9EFA1EB533AF0065E69C /* OnFieldMultiple.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,7 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83BE7E9A1EB2CBD800656252 /* ValidateTests.swift in Sources */,
+				833D9F0D1EB554270065E69C /* ValidateTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,9 +323,10 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos watchsimulator watchos appletvsimulator appletvos macosx";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,3,4";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -352,8 +371,9 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos watchsimulator watchos appletvsimulator appletvos macosx";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,3,4";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -369,7 +389,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Validate/Info.plist;
+				INFOPLIST_FILE = Sources/Validate/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tinfish.Validate;
@@ -389,7 +409,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Validate/Info.plist;
+				INFOPLIST_FILE = Sources/Validate/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tinfish.Validate;
@@ -403,8 +423,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = ValidateTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				INFOPLIST_FILE = Tests/ValidateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/Frameworks @executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@loader_path/../Frameworks @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tinfish.ValidateThisTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -415,8 +436,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				INFOPLIST_FILE = ValidateTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				INFOPLIST_FILE = Tests/ValidateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/Frameworks @executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@loader_path/../Frameworks @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tinfish.ValidateThisTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;

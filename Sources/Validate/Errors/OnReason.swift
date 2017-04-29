@@ -12,7 +12,9 @@ import Foundation
  Useful to associate a reason with the given error.
  */
 open class OnReason: ValidationError {
+    
     open let reason: String
+    
     public init(_ reason: String) {
         self.reason = reason
     }

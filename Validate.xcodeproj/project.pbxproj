@@ -13,6 +13,10 @@
 		83BE7EA61EB2CBEC00656252 /* ValidationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BE7EA51EB2CBEC00656252 /* ValidationResult.swift */; };
 		83BE7EA81EB2CC0C00656252 /* ValidationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BE7EA71EB2CC0C00656252 /* ValidationError.swift */; };
 		83BE7EAA1EB3963A00656252 /* ValidationAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BE7EA91EB3963A00656252 /* ValidationAppearance.swift */; };
+		83BE7EE61EB41C4E00656252 /* OnAnonymousError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BE7EE51EB41C4E00656252 /* OnAnonymousError.swift */; };
+		83BE7EE81EB41C6D00656252 /* OnReason.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BE7EE71EB41C6D00656252 /* OnReason.swift */; };
+		83BE7EEA1EB41C8900656252 /* OnField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BE7EE91EB41C8900656252 /* OnField.swift */; };
+		83BE7EEC1EB41C9E00656252 /* OnMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BE7EEB1EB41C9E00656252 /* OnMultiple.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,10 @@
 		83BE7EA51EB2CBEC00656252 /* ValidationResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationResult.swift; sourceTree = "<group>"; };
 		83BE7EA71EB2CC0C00656252 /* ValidationError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationError.swift; sourceTree = "<group>"; };
 		83BE7EA91EB3963A00656252 /* ValidationAppearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationAppearance.swift; sourceTree = "<group>"; };
+		83BE7EE51EB41C4E00656252 /* OnAnonymousError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnAnonymousError.swift; sourceTree = "<group>"; };
+		83BE7EE71EB41C6D00656252 /* OnReason.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnReason.swift; sourceTree = "<group>"; };
+		83BE7EE91EB41C8900656252 /* OnField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnField.swift; sourceTree = "<group>"; };
+		83BE7EEB1EB41C9E00656252 /* OnMultiple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnMultiple.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +90,7 @@
 				83BE7EA51EB2CBEC00656252 /* ValidationResult.swift */,
 				83BE7EA71EB2CC0C00656252 /* ValidationError.swift */,
 				83BE7EA91EB3963A00656252 /* ValidationAppearance.swift */,
+				83BE7EE41EB41C4500656252 /* Errors */,
 			);
 			path = Validate;
 			sourceTree = "<group>";
@@ -93,6 +102,17 @@
 				83BE7E9B1EB2CBD800656252 /* Info.plist */,
 			);
 			path = ValidateTests;
+			sourceTree = "<group>";
+		};
+		83BE7EE41EB41C4500656252 /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				83BE7EE51EB41C4E00656252 /* OnAnonymousError.swift */,
+				83BE7EE71EB41C6D00656252 /* OnReason.swift */,
+				83BE7EE91EB41C8900656252 /* OnField.swift */,
+				83BE7EEB1EB41C9E00656252 /* OnMultiple.swift */,
+			);
+			path = Errors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,7 +226,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83BE7EE81EB41C6D00656252 /* OnReason.swift in Sources */,
+				83BE7EEA1EB41C8900656252 /* OnField.swift in Sources */,
+				83BE7EEC1EB41C9E00656252 /* OnMultiple.swift in Sources */,
 				83BE7EAA1EB3963A00656252 /* ValidationAppearance.swift in Sources */,
+				83BE7EE61EB41C4E00656252 /* OnAnonymousError.swift in Sources */,
 				83BE7EA61EB2CBEC00656252 /* ValidationResult.swift in Sources */,
 				83BE7EA81EB2CC0C00656252 /* ValidationError.swift in Sources */,
 			);
@@ -414,6 +438,7 @@
 				83BE7EA11EB2CBD800656252 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83BE7EA21EB2CBD800656252 /* Build configuration list for PBXNativeTarget "ValidateTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +447,7 @@
 				83BE7EA41EB2CBD800656252 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

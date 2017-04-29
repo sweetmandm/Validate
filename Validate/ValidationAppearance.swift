@@ -8,12 +8,14 @@
 
 import Foundation
 
-protocol ValidationAppearance: ValidationAppearanceValid, ValidationAppearanceInvalid { }
-
-protocol ValidationAppearanceValid {
+public protocol ValidationAppearanceValid: class {
     func applyValidStyle()
 }
 
-protocol ValidationAppearanceInvalid {
+public protocol ValidationAppearanceNeutral: class {
+    func applyNeutralStyle()
+}
+
+public protocol ValidationAppearanceInvalid: class {
     func applyInvalidStyle(error: ValidationError)
 }

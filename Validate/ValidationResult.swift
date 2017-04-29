@@ -8,24 +8,35 @@
 
 import Foundation
 
-// Validate
-// minimal, unopinionated, composable validations
+/*
+ 
+ Validate
+ --------
+ minimal, unopinionated, composable validations
+ BYOBusiness Logic
+ 
+ */
 
-public enum ValidationResult<Value> {
+public enum ValidationResult<Value, ErrorType: ValidationError> {
     case valid(Value)
-    case invalid(ValidationError)
+    case invalid(ErrorType)
     
     public var isValid: Bool {
         switch self {
-        case .valid:
-            return true
-        case .invalid:
-            return false
+        case .valid: return true
+        case .invalid: return false
         }
     }
     
     public var isInvalid: Bool {
         return !isValid
+    }
+    
+    public var value: Value? {
+        switch self {
+        case .valid(let value): return value
+        case .invalid: return nil
+        }
     }
     
     public var errors: [ValidationError] {
@@ -34,7 +45,7 @@ public enum ValidationResult<Value> {
             return []
         case .invalid(let error):
             switch error {
-            case (let error as OnMultiple): return error.errors
+            case (let multiple as OnMultiple): return multiple.errors
             default: return [error]
             }
         }

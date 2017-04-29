@@ -8,8 +8,12 @@
 
 import Foundation
 
+/**
+ Useful to associate an arbitrary field with the given error.
+ For UI-based input fields, optionally style the field according to ValidationApparance conformance.
+ */
 open class OnField: ValidationError {
-    open let reason: String
+    open var reason: String
     open let field: Any
     
     public init(reason: String, field: Any) {

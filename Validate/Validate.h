@@ -14,6 +14,3 @@ FOUNDATION_EXPORT double ValidateVersionNumber;
 //! Project version string for Validate.
 FOUNDATION_EXPORT const unsigned char ValidateVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <Validate/PublicHeader.h>
-
-

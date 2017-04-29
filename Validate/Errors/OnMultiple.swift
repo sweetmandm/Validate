@@ -8,6 +8,9 @@
 
 import Foundation
 
+/**
+ Useful to compose multiple errors into a single error value.
+ */
 open class OnMultiple: ValidationError {
     public var reason: String {
         return errors

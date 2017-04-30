@@ -1,0 +1,6 @@
+language: objective-c
+
+osx_image: xcode8.3
+
+script:
+  - xcodebuild -project "Validate.xcodeproj" -scheme "Validate" -sdk "macosx" test

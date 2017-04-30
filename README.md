@@ -1,5 +1,7 @@
 # Validate
 
+[![Build Status](https://travis-ci.org/sweetmandm/Validate.svg?branch=master)](https://travis-ci.org/sweetmandm/Validate)
+
 Inspired by [Result](https://github.com/antitypical/Result), but a little more specialized for building data and user input validations.
 
 Create a validation:
